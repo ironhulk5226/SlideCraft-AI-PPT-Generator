@@ -42,13 +42,13 @@ const Header = () => {
         </div>
         {!user ? (
           <div className="flex items-center gap-4">
-            <Button 
+            {/* <Button 
               variant="ghost" 
               onClick={() => navigate("/pricing")}
               className="relative text-slate-700 hover:text-primary font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:bg-primary/5 hover:scale-105 border border-transparent hover:border-primary/20 shadow-sm hover:shadow-md cursor-pointer"
             >
               <span className="relative z-10">💎 Pricing</span>
-            </Button>
+            </Button> */}
             <SignInButton mode="modal">
               <Button className="cursor-pointer hover:scale-105 transition-transform duration-300">Get Started</Button>
             </SignInButton>
