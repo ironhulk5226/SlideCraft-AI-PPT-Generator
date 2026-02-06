@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen w-full relative">
       {/* Radial Gradient Background from Bottom */}
-         <div
+         {/* <div
     className="absolute inset-0 z-0"
     style={{
       background: `
@@ -24,7 +24,7 @@ const Hero = () => {
         linear-gradient(180deg, #f7eaff 0%, #fde2ea 100%)
       `,
     }}
-  />
+  /> */}
       {/* Your Content/Components */}
       <div className="relative z-10">
         <Header />
