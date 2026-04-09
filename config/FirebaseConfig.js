@@ -36,3 +36,5 @@ export const GeminiAiLiveModel = getLiveGenerativeModel(ai, {
     responseModalities: [ResponseModality.TEXT],
   },
 });
+
+
